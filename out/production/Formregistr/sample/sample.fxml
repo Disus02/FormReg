@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <TextField fx:id="txtId" layoutX="265.0" layoutY="51.0" />
+      <TextField fx:id="txtFirstname" layoutX="265.0" layoutY="103.0" />
+      <TextField fx:id="txtLastname" layoutX="265.0" layoutY="154.0" />
+      <TextField fx:id="txtAge" layoutX="265.0" layoutY="200.0" />
+      <TextField fx:id="txtEmail" layoutX="265.0" layoutY="245.0" />
+      <Text layoutX="223.0" layoutY="68.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ID" />
+      <Text layoutX="223.0" layoutY="120.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Имя" />
+      <Text layoutX="204.0" layoutY="171.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Фамилия" />
+      <Text layoutX="207.0" layoutY="217.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Возраст" />
+      <Text layoutX="214.0" layoutY="262.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Email" />
+      <Text layoutX="198.0" layoutY="311.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password" />
+      <Button layoutX="93.0" layoutY="347.0" mnemonicParsing="false" onAction="#pressInsert" text="Добавить" />
+      <Button layoutX="188.0" layoutY="347.0" mnemonicParsing="false" onAction="#pressUpdate" text="обновить" />
+      <Button layoutX="300.0" layoutY="347.0" mnemonicParsing="false" onAction="#pressDelete" text="удалить" />
+      <Button layoutX="414.0" layoutY="347.0" mnemonicParsing="false" onAction="#pressCheks" text="проверить" />
+      <PasswordField fx:id="txtPassword" layoutX="265.0" layoutY="286.0" />
+      <Label fx:id="status" layoutX="368.0" layoutY="323.0" />
+      <Button layoutX="513.0" layoutY="347.0" mnemonicParsing="false" onAction="#pressClear" text="очистка" />
+      <Button layoutX="110.0" layoutY="167.0" mnemonicParsing="false" onAction="#pressOpen" text="Вход" />
+   </children>
+</Pane>
